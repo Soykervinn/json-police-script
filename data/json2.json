@@ -1,0 +1,186 @@
+{
+    "_index": "logs-cert-2024.07.03",
+    "_id": "D-v7eJABrwET0BUdzW08",
+    "_version": 1,
+    "_score": 0,
+    "_source": {
+      "user": {
+        "id": "6684720fcc185550e261587d",
+        "subscriberId": "f8188b3b-add7-40f6-a939-57812c97b292",
+        "countryCode": "AR",
+        "identityProvider": {
+          "shortName": "performance_idp",
+          "name": "Performance IDP",
+          "contentProvider": {
+            "shortName": "dummy2",
+            "name": "Dummy Page"
+          }
+        },
+        "type": "END_USER",
+        "ip": "127.0.0.1",
+        "creationDate": "2024-07-02T21:33:03.252Z"
+      },
+      "origin": "CLOUDPASS",
+      "action": "getUser",
+      "@inId": "192.34.12.109",
+      "@version": "1",
+      "device": {
+        "tokenDate": "2024-07-02T21:33:03.463Z",
+        "description": "Dummy ",
+        "type": "WEB",
+        "scope": "login",
+        "token": "98c7e3b5e49ed6eb26a94da7f564941f1d8c7c2b"
+      },
+      "type": "cert",
+      "@timestamp": "2024-07-03T14:24:46.000Z",
+      "@cdate": "2024-07-03T14:24:46.293799282Z",
+      "date_timestamp": 1720016686,
+      "status": "SUCCESS",
+      "date_iso": "2024-07-03T14:24:46.289Z",
+      "@in": "LogStash"
+    },
+    "fields": {
+      "device.scope.keyword": [
+        "login"
+      ],
+      "device.type": [
+        "WEB"
+      ],
+      "origin": [
+        "CLOUDPASS"
+      ],
+      "status.keyword": [
+        "SUCCESS"
+      ],
+      "@cdate": [
+        "2024-07-03T14:24:46.293Z"
+      ],
+      "device.scope": [
+        "login"
+      ],
+      "user.identityProvider.contentProvider.shortName.keyword": [
+        "dummy2"
+      ],
+      "device.type.keyword": [
+        "WEB"
+      ],
+      "user.identityProvider.shortName": [
+        "performance_idp"
+      ],
+      "type": [
+        "cert"
+      ],
+      "user.id.keyword": [
+        "6684720fcc185550e261587d"
+      ],
+      "date_timestamp": [
+        1720016686
+      ],
+      "user.ip": [
+        "127.0.0.1"
+      ],
+      "date_iso": [
+        "2024-07-03T14:24:46.289Z"
+      ],
+      "user.identityProvider.shortName.keyword": [
+        "performance_idp"
+      ],
+      "user.type.keyword": [
+        "END_USER"
+      ],
+      "type.keyword": [
+        "cert"
+      ],
+      "@inId": [
+        "192.34.12.109"
+      ],
+      "@version": [
+        "1"
+      ],
+      "action": [
+        "getUser"
+      ],
+      "action.keyword": [
+        "getUser"
+      ],
+      "day_of_week": [
+        "Wednesday"
+      ],
+      "@inId.keyword": [
+        "192.34.12.109"
+      ],
+      "user.identityProvider.contentProvider.name": [
+        "Dummy Page"
+      ],
+      "device.tokenDate": [
+        "2024-07-02T21:33:03.463Z"
+      ],
+      "user.id": [
+        "6684720fcc185550e261587d"
+      ],
+      "@in": [
+        "LogStash"
+      ],
+      "@version.keyword": [
+        "1"
+      ],
+      "device.token": [
+        "98c7e3b5e49ed6eb26a94da7f564941f1d8c7c2b"
+      ],
+      "device.token.keyword": [
+        "98c7e3b5e49ed6eb26a94da7f564941f1d8c7c2b"
+      ],
+      "user.ip.keyword": [
+        "127.0.0.1"
+      ],
+      "device.description.keyword": [
+        "Dummy "
+      ],
+      "user.identityProvider.contentProvider.name.keyword": [
+        "Dummy Page"
+      ],
+      "@timestamp": [
+        "2024-07-03T14:24:46.000Z"
+      ],
+      "user.countryCode.keyword": [
+        "AR"
+      ],
+      "user.subscriberId": [
+        "f8188b3b-add7-40f6-a939-57812c97b292"
+      ],
+      "user.countryCode": [
+        "AR"
+      ],
+      "device.description": [
+        "Dummy "
+      ],
+      "origin.keyword": [
+        "CLOUDPASS"
+      ],
+      "user.identityProvider.name.keyword": [
+        "Performance IDP"
+      ],
+      "user.type": [
+        "END_USER"
+      ],
+      "user.identityProvider.contentProvider.shortName": [
+        "dummy2"
+      ],
+      "user.creationDate": [
+        "2024-07-02T21:33:03.252Z"
+      ],
+      "user.identityProvider.name": [
+        "Performance IDP"
+      ],
+      "@in.keyword": [
+        "LogStash"
+      ],
+      "status": [
+        "SUCCESS"
+      ],
+      "user.subscriberId.keyword": [
+        "f8188b3b-add7-40f6-a939-57812c97b292"
+      ]
+    }
+  }
+  

@@ -1,0 +1,36 @@
+{
+  "_source": {
+    "user": {
+      "ip": {
+        "Json 1": "190.176.154.21",
+        "Json 2": "127.0.0.1"
+      }
+    },
+    "originAPI": {
+      "Json 1": "tbx-cloudpass/0.0.1 tbx-cloudpass/0.0.1 tbx-node-sharedlib/18.9.63",
+      "Json 2": "field not present"
+    }
+  },
+  "fields": {
+    "originAPI": {
+      "Json 1": [
+        "tbx-cloudpass/0.0.1 tbx-cloudpass/0.0.1 tbx-node-sharedlib/18.9.63"
+      ],
+      "Json 2": "field not present"
+    },
+    "user.ip[0]": {
+      "Json 1": "190.176.154.21",
+      "Json 2": "127.0.0.1"
+    },
+    "originAPI.keyword": {
+      "Json 1": [
+        "tbx-cloudpass/0.0.1 tbx-cloudpass/0.0.1 tbx-node-sharedlib/18.9.63"
+      ],
+      "Json 2": "field not present"
+    },
+    "user.ip.keyword[0]": {
+      "Json 1": "190.176.154.21",
+      "Json 2": "127.0.0.1"
+    }
+  }
+}

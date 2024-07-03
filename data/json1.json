@@ -1,0 +1,193 @@
+{
+    "_index": "logs-cert-2024.07.03",
+    "_id": "eOmUeJABrwET0BUdMyzb",
+    "_version": 1,
+    "_score": 0,
+    "_source": {
+      "user": {
+        "id": "6684720fcc185550e261587d",
+        "subscriberId": "f8188b3b-add7-40f6-a939-57812c97b292",
+        "countryCode": "AR",
+        "identityProvider": {
+          "shortName": "performance_idp",
+          "name": "Performance IDP",
+          "contentProvider": {
+            "shortName": "dummy2",
+            "name": "Dummy Page"
+          }
+        },
+        "type": "END_USER",
+        "ip": "190.176.154.21",
+        "creationDate": "2024-07-02T21:33:03.252Z"
+      },
+      "origin": "CLOUDPASS",
+      "action": "getUser",
+      "@inId": "192.34.12.109",
+      "@version": "1",
+      "device": {
+        "tokenDate": "2024-07-02T21:33:03.463Z",
+        "description": "Dummy ",
+        "type": "WEB",
+        "scope": "login",
+        "token": "98c7e3b5e49ed6eb26a94da7f564941f1d8c7c2b"
+      },
+      "type": "cert",
+      "@timestamp": "2024-07-03T12:31:36.000Z",
+      "@cdate": "2024-07-03T12:31:36.821533641Z",
+      "date_timestamp": 1720009896,
+      "originAPI": "tbx-cloudpass/0.0.1 tbx-cloudpass/0.0.1 tbx-node-sharedlib/18.9.63",
+      "status": "SUCCESS",
+      "date_iso": "2024-07-03T12:31:36.811Z",
+      "@in": "LogStash"
+    },
+    "fields": {
+      "device.type": [
+        "WEB"
+      ],
+      "@cdate": [
+        "2024-07-03T12:31:36.821Z"
+      ],
+      "originAPI": [
+        "tbx-cloudpass/0.0.1 tbx-cloudpass/0.0.1 tbx-node-sharedlib/18.9.63"
+      ],
+      "user.identityProvider.contentProvider.shortName.keyword": [
+        "dummy2"
+      ],
+      "device.type.keyword": [
+        "WEB"
+      ],
+      "user.identityProvider.shortName": [
+        "performance_idp"
+      ],
+      "type": [
+        "cert"
+      ],
+      "user.id.keyword": [
+        "6684720fcc185550e261587d"
+      ],
+      "user.ip": [
+        "190.176.154.21"
+      ],
+      "date_iso": [
+        "2024-07-03T12:31:36.811Z"
+      ],
+      "type.keyword": [
+        "cert"
+      ],
+      "action": [
+        "getUser"
+      ],
+      "action.keyword": [
+        "getUser"
+      ],
+      "@inId.keyword": [
+        "192.34.12.109"
+      ],
+      "device.tokenDate": [
+        "2024-07-02T21:33:03.463Z"
+      ],
+      "user.id": [
+        "6684720fcc185550e261587d"
+      ],
+      "@version.keyword": [
+        "1"
+      ],
+      "device.token.keyword": [
+        "98c7e3b5e49ed6eb26a94da7f564941f1d8c7c2b"
+      ],
+      "device.description.keyword": [
+        "Dummy "
+      ],
+      "user.countryCode.keyword": [
+        "AR"
+      ],
+      "device.description": [
+        "Dummy "
+      ],
+      "user.identityProvider.name.keyword": [
+        "Performance IDP"
+      ],
+      "user.identityProvider.contentProvider.shortName": [
+        "dummy2"
+      ],
+      "user.identityProvider.name": [
+        "Performance IDP"
+      ],
+      "status": [
+        "SUCCESS"
+      ],
+      "user.subscriberId.keyword": [
+        "f8188b3b-add7-40f6-a939-57812c97b292"
+      ],
+      "device.scope.keyword": [
+        "login"
+      ],
+      "origin": [
+        "CLOUDPASS"
+      ],
+      "status.keyword": [
+        "SUCCESS"
+      ],
+      "device.scope": [
+        "login"
+      ],
+      "date_timestamp": [
+        1720009896
+      ],
+      "originAPI.keyword": [
+        "tbx-cloudpass/0.0.1 tbx-cloudpass/0.0.1 tbx-node-sharedlib/18.9.63"
+      ],
+      "user.identityProvider.shortName.keyword": [
+        "performance_idp"
+      ],
+      "user.type.keyword": [
+        "END_USER"
+      ],
+      "@inId": [
+        "192.34.12.109"
+      ],
+      "@version": [
+        "1"
+      ],
+      "day_of_week": [
+        "Wednesday"
+      ],
+      "user.identityProvider.contentProvider.name": [
+        "Dummy Page"
+      ],
+      "@in": [
+        "LogStash"
+      ],
+      "device.token": [
+        "98c7e3b5e49ed6eb26a94da7f564941f1d8c7c2b"
+      ],
+      "user.ip.keyword": [
+        "190.176.154.21"
+      ],
+      "user.identityProvider.contentProvider.name.keyword": [
+        "Dummy Page"
+      ],
+      "@timestamp": [
+        "2024-07-03T12:31:36.000Z"
+      ],
+      "user.subscriberId": [
+        "f8188b3b-add7-40f6-a939-57812c97b292"
+      ],
+      "user.countryCode": [
+        "AR"
+      ],
+      "origin.keyword": [
+        "CLOUDPASS"
+      ],
+      "user.type": [
+        "END_USER"
+      ],
+      "user.creationDate": [
+        "2024-07-02T21:33:03.252Z"
+      ],
+      "@in.keyword": [
+        "LogStash"
+      ]
+    }
+  }
+  
